@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family:'customFont1';
+    src:url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:'customFont2';
+    src:url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family:'customFont3';
+    src:url('./assets/fonts/static/Figtree-SemiBold.ttf');
+}
+
+body {
+    font-family: customFont1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    width: 1440px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 480px;
+    width: 340px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.back {
+    height: 480px;
+    width: 340px;
+    background-color: hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 20px;
+    box-shadow: 7px 7px 0 0 hsl(0, 0%, 7%);
+    z-index: 0;
+}
+
+.main-img {
+    width: 310px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+article {
+    margin: 15px;
+}
+
+.learning {
+    width: 90px;
+    height: 30px;
+    font-family: customFont2;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tiny-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.buttom {
+    display: flex;
+    align-items: center;
+    font-family: customFont2;
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+    font-size: calc(16px + 0.090625vw);
+    line-height: 1.5;
+    margin-top: 55px;
+}
+
+.publish {
+    margin-bottom: 15px;
+    font-size: calc(14px + 0.090625vw);
+    font-family: customFont3;
+}
+
+.foundation {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: calc(22px + 0.090625vw);
+    font-family: customFont2;
+    color: hsl(0, 0%, 7%);
+    position: absolute;
+    top: 375px;
+    z-index: 5;
+}
+
+.ver:hover .foundation {
+    cursor: url('./assets/hand-pointer-solid.svg'), auto;
+    color: hsl(47, 88%, 63%);
+}
+
+.ver:hover .back {
+    box-shadow: 14px 14px 0 0 hsl(0, 0%, 7%);
+}
