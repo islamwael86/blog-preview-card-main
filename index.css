@@ -31,39 +31,42 @@ main {
 }
 
 section {
-    height: 480px;
-    width: 340px;
+    height: 550px;
+    width: 380px;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 7%);
     display: flex;
     flex-direction: column;
     align-items:center;
     border-radius: 20px;
-    position: absolute;
+    position:absolute;
     z-index: 2;
 }
 
 .back {
-    height: 480px;
-    width: 340px;
+    height: 550px;
+    width: 380px;
     background-color: hsl(0, 0%, 7%);
-    border: 1px solid hsl(0, 0%, 7%);
     display: flex;
     flex-direction: column;
     align-items:center;
     border-radius: 20px;
     box-shadow: 7px 7px 0 0 hsl(0, 0%, 7%);
+    position: relative;
+    bottom: 39px;
+    right: 10px;
     z-index: 0;
 }
 
 .main-img {
-    width: 310px;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
     border-radius: 10px;
 }
 
 article {
-    margin: 15px;
+    margin: 25px;
 }
 
 .learning {
@@ -79,8 +82,8 @@ article {
 }
 
 .tiny-img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 15px;
 }
 
@@ -88,30 +91,36 @@ article {
     display: flex;
     align-items: center;
     font-family: customFont2;
+    margin-top: 30px;
 }
 
 p {
     color: hsl(0, 0%, 50%);
     font-size: calc(16px + 0.090625vw);
     line-height: 1.5;
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 .publish {
     margin-bottom: 15px;
-    font-size: calc(14px + 0.090625vw);
+    font-size: calc(12px + 0.090625vw);
     font-family: customFont3;
 }
 
 .foundation {
-    margin-bottom: 15px;
+    width: 270px;
     margin-left: 15px;
     font-size: calc(22px + 0.090625vw);
     font-family: customFont2;
     color: hsl(0, 0%, 7%);
-    position: absolute;
-    top: 375px;
+    position: relative;
+    top: 320px;
     z-index: 5;
+}
+
+.ver {
+    height: 530px;
+    width: 362px;
 }
 
 .ver:hover .foundation {
