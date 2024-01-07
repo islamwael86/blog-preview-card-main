@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Screenshot
 
-[![Desktop.png](https://i.postimg.cc/SRwSxHQ2/Desktop.png)](https://postimg.cc/tnNQrSxp)
-[![Mobile.png](https://i.postimg.cc/0jmQD9Bd/Mobile.png)](https://postimg.cc/Zvb4hzZC)
+[![Desktop.png](https://i.postimg.cc/fRnNJ6mZ/Desktop.png)](https://postimg.cc/3dB6qftb)
+[![Mobile.png](https://i.postimg.cc/xdgDp87T/Mobile.png)](https://postimg.cc/DWWM8vnt)
 
 ### Links
 
