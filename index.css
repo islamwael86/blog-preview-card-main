@@ -31,7 +31,7 @@ main {
 }
 
 section {
-    height: 524px;
+    height: 523px;
     width: 375px;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 7%);
@@ -44,7 +44,7 @@ section {
 }
 
 .back {
-    height: 524px;
+    height: 523px;
     width: 375px;
     background-color: hsl(0, 0%, 7%);
     display: flex;
@@ -71,15 +71,15 @@ section {
 
 .learning {
     width: 80px;
-    height: 25px;
+    height: 30px;
     font-family: customFont2;
-    font-size: calc(13px + 0.090625vw);
+    font-size: calc(14px + 0.090625vw);
     background-color: hsl(47, 88%, 63%);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .tiny-img {
@@ -92,18 +92,19 @@ section {
     display: flex;
     align-items: center;
     font-family: customFont2;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: calc(13px + 0.090625vw);
 }
 
 p {
     color: hsl(0, 0%, 50%);
-    font-size: calc(14px + 0.090625vw);
+    font-size: calc(15px + 0.090625vw);
     line-height: 1.5;
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 .publish {
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: calc(12px + 0.090625vw);
     font-family: customFont3;
@@ -116,7 +117,7 @@ p {
     font-family: customFont2;
     color: hsl(0, 0%, 7%);
     position: relative;
-    top: 300px;
+    top: 303px;
     z-index: 5;
 }
 
